@@ -1,0 +1,10 @@
+@URL=http://localhost
+@PORT=4000
+
+###
+GET {{URL}}:{{PORT}}/api/v1/ping
+
+{{
+  test.status(200);
+}}
+###
